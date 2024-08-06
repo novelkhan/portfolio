@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+// Angular cdk is installed using 'npm install --save @angular/cdk@16.2.12' command
+import { Component, HostBinding } from '@angular/core';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 //  Angular 16 project is created using 'npx -p @angular/cli@16 ng new portfolio' command. Guide Link- https://www.youtube.com/watch?v=LYNG3kcKRQ8 
 
@@ -22,5 +24,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'Portfolio';
+  @HostBinding('class.pc') pcMode = false;
+
+  constructor(private breakpointObserver: BreakpointObserver) {
+    this.breakpointObserver
+      .observe([Breakpoints.HandsetPortrait, Breakpoints.WebLandscape])
+      .subscribe({
+        next: (result: any) => {
+          for (let breakpoint of Object.keys(result.breakpoints))
+            if (result.breakpoints[breakpoint]) {
+              if (breakpoint === Breakpoints.HandsetPortrait)
+                this.pcMode = false;
+
+              if (breakpoint === Breakpoints.WebLandscape) this.pcMode = true;
+            }
+        },
+      });
+  }
 }
