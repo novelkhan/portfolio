@@ -16,6 +16,7 @@ export class ExperienceComponent implements OnInit {
         'Worked with Asp.net Core Identity Framework, Angular Client App',
         'NGX-Bootstrap, Angular-15',
       ],
+      src: 'https://github.com/novelkhan/mainBackend'
     },
     {
       role: 'ApiCrud',
@@ -25,6 +26,7 @@ export class ExperienceComponent implements OnInit {
         'Working to perform complex file operations in an angular project',
         'Working to develop new technique to make file operations easier.',
       ],
+      src: 'https://github.com/novelkhan/ApiCrud'
     },
     {
       role: 'img-api',
@@ -35,6 +37,7 @@ export class ExperienceComponent implements OnInit {
         'CI/CD, LINQ, Entity Framewoork Core',
         'Github Action is used to auto deploy'
       ],
+      src: 'https://github.com/novelkhan/img-api'
     },
     {
       role: 'ImgApiForNg',
@@ -44,6 +47,7 @@ export class ExperienceComponent implements OnInit {
         'Integrate Angular with This API Application',
         'Worked on Development of Simple User Data Related Operations',
       ],
+      src: 'https://github.com/novelkhan/ImgApiForNg'
     },
     {
       role: 'ImgCrud',
@@ -53,6 +57,7 @@ export class ExperienceComponent implements OnInit {
         'Worked on User Data',
         'Bootstrap-5, Bootstrap-Icon',
       ],
+      src: 'https://github.com/novelkhan/ImgCrud'
     }
   ];
   constructor() {}

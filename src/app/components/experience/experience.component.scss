@@ -54,3 +54,16 @@ ul li h4 {
 :host.pc ul li:has(ul):last-child::after {  
     height: 100%;
 }
+
+
+
+/////////////////////////////////////////////////////////////////
+///                        Custom CSS                         ///
+/////////////////////////////////////////////////////////////////
+ul li a{
+    text-decoration: none;
+    display: inline-block; /* Shrinks the anchor to the size of its content */
+}
+ul li a h2:hover{
+    color: var(--orange);
+}

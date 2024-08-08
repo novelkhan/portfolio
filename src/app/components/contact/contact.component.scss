@@ -90,9 +90,15 @@ ul {
     margin: 0px;
     padding: 0px;
 }
+.coding-profile li a:hover{
+    color: var(--orange);
+}
 
 .social-media li a {
     color: var(--green);
     margin: 0px;
     padding: 0px;
+}
+.social-media li a:hover{
+    color: var(--orange);
 }

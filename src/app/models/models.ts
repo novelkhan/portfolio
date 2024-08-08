@@ -10,6 +10,8 @@ export interface Education {
     company: string;
     duration: string;
     description: string[];
+
+    src: string;
   }
   
   export interface Skill {
@@ -22,4 +24,6 @@ export interface Education {
     title: string;
     technologies: string;
     description: string[];
+
+    src: string;
   }

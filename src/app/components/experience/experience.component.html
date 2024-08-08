@@ -3,7 +3,10 @@
 
     <ul>
         <li *ngFor="let workexp of workExpList">
-            <h2>{{workexp.role}}</h2>
+            <!-- <h2>{{workexp.role}}</h2> -->
+            <a href={{workexp.src}} target="_blank">
+                <h2>{{workexp.role}}</h2>
+            </a>
             <h3>{{workexp.company}}</h3>
             <h4>{{workexp.duration}}</h4>
             <ul>

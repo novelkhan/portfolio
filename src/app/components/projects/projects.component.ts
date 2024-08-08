@@ -16,6 +16,7 @@ export class ProjectsComponent implements OnInit {
         'Developed role based authorization using Identity Framework.',
         'MS-SQL Server, JWT-Authentication, Email-Validation.',
       ],
+      src: 'https://github.com/novelkhan/FileStorageApi'
     },
     {
       title: 'E - Travel Management System',
@@ -25,6 +26,7 @@ export class ProjectsComponent implements OnInit {
         'Got to learn about JWT-Bearer',
         'Learned about SMTP to develop this application',
       ],
+      src: 'https://github.com/novelkhan/ETravelApi'
     },
     {
       title: 'File Converter',
@@ -33,6 +35,7 @@ export class ProjectsComponent implements OnInit {
         'Worked on File to byte[] array convertion and vice-versa',
         'Learned multiple technologies to develop this application.',
       ],
+      src: 'https://github.com/novelkhan/FileStorageApi'
     },
   ];
   constructor() {}
