@@ -9,29 +9,29 @@ import { Project } from 'src/app/models/models';
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
-      title: 'Google Cloud, Gmail, Google Maps',
-      technologies: 'Cloud Compounting, Angular, Angular Material',
+      title: 'CyberHost',
+      technologies: 'Asp.net Core Web Api, Angular, NGX-Bootstrap',
       description: [
-        'Worked as a team lead to develop apps that are powered by Cloud.',
-        'Built the services of Google Map that can be used by third party apps to get data.',
-        'Was part of team to expand the google drive.',
+        'Worked as a full-stack developer to develop apps that are powered by CyberHost.',
+        'Developed role based authorization using Identity Framework.',
+        'MS-SQL Server, JWT-Authentication, Email-Validation.',
       ],
     },
     {
-      title: 'ChromeOS',
-      technologies: 'C, C++',
+      title: 'E - Travel Management System',
+      technologies: 'C#, Asp.net Core Web API, Angular-16',
       description: [
-        'Worked as a team lead to build ChromeOS',
-        'Got to learn about linux kernel',
-        'Learned C, C++ to build an O.S.',
+        'Worked as a full stack developer to develop this application.',
+        'Got to learn about JWT-Bearer',
+        'Learned about SMTP to develop this application',
       ],
     },
     {
-      title: 'Google Toolbar',
-      technologies: 'HTML, CSS, JS, C#',
+      title: 'File Converter',
+      technologies: 'Asp.net Core Web API, Angular-16',
       description: [
-        'Worked on Google Toolbar, to include the google search engine in Internet Explorer',
-        'Learned multiple technologies to build the product.',
+        'Worked on File to byte[] array convertion and vice-versa',
+        'Learned multiple technologies to develop this application.',
       ],
     },
   ];

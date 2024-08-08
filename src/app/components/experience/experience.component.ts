@@ -9,50 +9,51 @@ import { WorkExperience } from 'src/app/models/models';
 export class ExperienceComponent implements OnInit {
   workExpList: WorkExperience[] = [
     {
-      role: 'Chief Executing Officer',
-      company: 'Google (Aplhabet)',
-      duration: 'Aug 2015 - Now',
+      role: 'mainBackend',
+      company: 'Asp.net Core Web API',
+      duration: 'Dec 12, 2022 - Mar 14, 2024',
       description: [
-        'Working to expand google in remote areas.',
-        'Working to develop new technologies to make life easier.',
+        'Worked with Asp.net Core Identity Framework, Angular Client App',
+        'NGX-Bootstrap, Angular-15',
       ],
     },
     {
-      role: 'Senior Vice President',
-      company: 'Google',
-      duration: 'Apr 2012 - Aug 2015',
+      role: 'ApiCrud',
+      company: 'Angular 16.2.1 Project',
+      duration: 'Dec 31, 2023 - Jul 25, 2024',
       description: [
-        'Involved in various Public talks',
-        'Open Sourced Google VP8',
+        'Working to perform complex file operations in an angular project',
+        'Working to develop new technique to make file operations easier.',
       ],
     },
     {
-      role: 'Vice President',
-      company: 'Google',
-      duration: 'Jul 2008 - Mar 2012',
+      role: 'img-api',
+      company: 'Asp.net Core Web API',
+      duration: 'Dec 3, 2022 - Jul 17, 2024',
       description: [
-        'Included Android in Google',
-        'Worked on Development of Google Maps',
+        'Involved in various file type conversion',
+        'CI/CD, LINQ, Entity Framewoork Core',
+        'Github Action is used to auto deploy'
       ],
     },
     {
-      role: 'Product Manager',
-      company: 'Google',
-      duration: 'Apr 2004 - Jun 2008',
+      role: 'ImgApiForNg',
+      company: 'Asp.net Core Web API Project',
+      duration: 'Jan 22, 2024 - Mar Jul 30, 2024',
       description: [
-        'Worked on Google Toolbar',
-        'Involved in team to develop Google Chrome',
+        'Integrate Angular with This API Application',
+        'Worked on Development of Simple User Data Related Operations',
       ],
     },
     {
-      role: 'Software Developer',
-      company: 'McKinsey & Co',
-      duration: 'Sep 2002 - Mar 2004',
+      role: 'ImgCrud',
+      company: 'Angular 16.2.1 Project',
+      duration: 'Jan 21, 2024 - Jul 30, 2024',
       description: [
-        'Worked with multiple teams to develop desktop and web applications',
-        'Worked on different technologies such as (Dotnet, C++, Java)',
+        'Worked on User Data',
+        'Bootstrap-5, Bootstrap-Icon',
       ],
-    },
+    }
   ];
   constructor() {}
 

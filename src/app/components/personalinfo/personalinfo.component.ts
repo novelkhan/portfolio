@@ -7,18 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalinfoComponent implements OnInit {
   myData: string[][] = [
-    ['Name', 'Sundar Pichai'],
-    ['DOB', '10/06/1972'],
-    ['Work Exp', '25 Years'],
-    ['Education', 'M.S (1995)'],
-    ['Interests', 'Cricket'],
+    ['Name', 'Novel Khan'],
+    ['DOB', '11/12/1993'],
+    ['Work Exp', '2 Years'],
+    ['Education', 'BSc in CSE (2021)'],
+    ['Interests', 'Chess Board'],
   ];
 
   aboutMe: string[] = [
-    'Hi, I am a Software Engineer with 25 years of experience in software industry.',
-    'Worked as Head of Product Management in Google for various technologies (Google Search Engine, Google Drive, Chrome Browser).',
-    'Delivered all product withing deadlines. Always eager to learn new technologies.',
-    'Currently, working as CEO of Google Alphabet',
+    'Hi, I am a Software Developer with 2 years of experience in asp.net core web api with angular-16 front-end.',
+    'Worked as a full-stack developer in some tiny and enormous projects with various technologies (Asp.net Core Identity Famework, NGX-Bootstrap, Figma to Bootstrap-5 Conversion).',
+    'I will complete all tasks within deadlines. Always eager to learn new technologies.',
+    'Currently, I have been seeking to develop a tech career as an Asp.net Core Developer at any fast growing IT Firm where I can utilize my skills in .Net Development with C# & asp.net core web api based web application, and utilize my abilities of problem solving with OOP which meets clients need.',
   ];
 
   constructor() {}

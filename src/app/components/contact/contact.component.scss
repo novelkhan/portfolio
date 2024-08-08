@@ -58,3 +58,41 @@ ul {
 :host.pc .social-media li:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
+
+
+
+
+/////////////////////////////////////////////////////////////////
+///                        Custom CSS                         ///
+/////////////////////////////////////////////////////////////////
+
+.coding-profile {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.coding-profile li {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--green);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.coding-profile li a{
+    color: var(--green);
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-media li a {
+    color: var(--green);
+    margin: 0px;
+    padding: 0px;
+}

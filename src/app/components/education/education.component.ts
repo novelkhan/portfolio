@@ -9,35 +9,17 @@ import { Education } from 'src/app/models/models';
 export class EducationComponent implements OnInit {
   educationList: Education[] = [
     {
-      institute: "University of Pennsylvania's",
-      course: 'MBA',
-      duration: '2000-2002',
-      score: '80%',
+      institute: "National University",
+      course: 'BSc in CSE',
+      duration: '2021',
+      score: '2.65 out of 4.00',
     },
     {
-      institute: 'Stanford University',
-      course: 'M.S in Material Science',
-      duration: '1993-1995',
-      score: '75%',
-    },
-    {
-      institute: 'IIT (Madras)',
-      course: 'BTech in Metallurgical Engineering',
-      duration: '1989-1993',
-      score: '85%',
-    },
-    {
-      institute: 'Vana Vani School',
+      institute: 'Dhaka Board',
       course: 'HSC',
-      duration: '1988-1989',
-      score: '80%',
-    },
-    {
-      institute: 'Vana Vani School',
-      course: 'SSC',
-      duration: '1986-1988',
-      score: '90%',
-    },
+      duration: '2012',
+      score: '3.40 out of 5.00',
+    }
   ];
 
   constructor() {}
