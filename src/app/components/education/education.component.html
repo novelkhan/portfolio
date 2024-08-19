@@ -5,6 +5,7 @@
         <h2>{{education.course}}</h2>
         <h3>{{education.institute}}</h3>
         <h4>{{education.duration}}</h4>
-        <h4>{{education.score}}</h4>
+        <!-- <h4>{{education.score}}</h4> -->
+        <h4 [innerHTML]="education.score"></h4> <!-- Use innerHTML binding -->
     </section>
 </div>

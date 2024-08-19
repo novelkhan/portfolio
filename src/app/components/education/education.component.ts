@@ -11,14 +11,14 @@ export class EducationComponent implements OnInit {
     {
       institute: "National University",
       course: 'BSc in CSE',
-      duration: '2021',
-      score: '2.65 out of 4.00',
+      duration: 'Passing Year - 2021',
+      score: 'Global Institute of Information Technology (GIIT), Tangail',
     },
     {
       institute: 'Dhaka Board',
       course: 'HSC',
-      duration: '2012',
-      score: '3.40 out of 5.00',
+      duration: 'Passing Year - 2012',
+      score: 'Shahid Roushon Ali Khan Degree College<br/>Basail, Tangail',
     }
   ];
 
