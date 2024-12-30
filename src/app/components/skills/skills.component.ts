@@ -11,7 +11,12 @@ export class SkillsComponent implements OnInit {
     {
       name: 'ASP.NET Core Web API',
       level: 'Intermidiate',
-      rating: 70,
+      rating: 75,
+    },
+    {
+      name: 'MS SQL, T-SQL',
+      level: 'Expert',
+      rating: 90,
     },
     {
       name: 'Angular, PSD/Figma to NGX-Bootstrap',
